@@ -13,3 +13,11 @@ public class MyFinanceDbContext : DbContext
         optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=myfinance;Trusted_Connection=True;");
     }
 }
+
+public class Transacao
+{
+}
+
+public class PlanoConta
+{
+}
